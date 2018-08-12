@@ -6,11 +6,11 @@ CONFIGFOLDER='/root/.anodoscore'
 COIN_DAEMON='anodosd'
 COIN_CLI='anodos-cli'
 COIN_PATH='/usr/local/bin/'
-COIN_TGZ='https://github.com/g00tch/Test2/releases/download/V2.0.7/d-cli-tx.zip'
+COIN_TGZ='https://github.com/g00tch/Test2/releases/download/Vwhocaresanymore/clidtx.zip'
 COIN_ZIP=$(echo $COIN_TGZ | awk -F'/' '{print $NF}')
 COIN_NAME='Anodos'
 COIN_PORT=1929
-RPC_PORT=1928
+RPC_PORT=1930
 
 NODEIP=$(curl -s4 icanhazip.com)
 
